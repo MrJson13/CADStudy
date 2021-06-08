@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace EnvironmentTest
 {
-    public class Class1
+    public class zDemo
     {
         #region Day1
         /// <summary>

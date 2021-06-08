@@ -1,0 +1,6 @@
+E:\Myproject\我的\CAD\EnvironmentTest\EnvironmentTest\obj\Debug\EnvironmentTest.csproj.CoreCompileInputs.cache
+E:\Myproject\我的\CAD\EnvironmentTest\EnvironmentTest\obj\Debug\EnvironmentTest.csprojAssemblyReference.cache
+E:\Myproject\我的\CAD\EnvironmentTest\EnvironmentTest\bin\Debug\EnvironmentTest.dll
+E:\Myproject\我的\CAD\EnvironmentTest\EnvironmentTest\bin\Debug\EnvironmentTest.pdb
+E:\Myproject\我的\CAD\EnvironmentTest\EnvironmentTest\obj\Debug\EnvironmentTest.dll
+E:\Myproject\我的\CAD\EnvironmentTest\EnvironmentTest\obj\Debug\EnvironmentTest.pdb

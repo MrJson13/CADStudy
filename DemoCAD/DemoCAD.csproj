@@ -40,7 +40,8 @@
       <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\acdbmgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="AcDoNetTools">
+    <Reference Include="AcDoNetTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\EnvironmentTest\bin\Debug\AcDoNetTools.dll</HintPath>
     </Reference>
     <Reference Include="acmgd">
@@ -58,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="demo.cs" />
+    <Compile Include="demoSele.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

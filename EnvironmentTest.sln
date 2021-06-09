@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentTest", "EnvironmentTest\EnvironmentTest.csproj", "{AFEC3061-E208-4F8C-BD07-134A8EBEFFF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcDoNetTools", "EnvironmentTest\AcDoNetTools.csproj", "{AFEC3061-E208-4F8C-BD07-134A8EBEFFF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCAD", "DemoCAD\DemoCAD.csproj", "{79913A29-AE00-4F31-A08A-AA672D787F8A}"
 EndProject

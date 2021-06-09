@@ -7,8 +7,8 @@
     <ProjectGuid>{AFEC3061-E208-4F8C-BD07-134A8EBEFFF6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EnvironmentTest</RootNamespace>
-    <AssemblyName>EnvironmentTest</AssemblyName>
+    <RootNamespace>AcDoNetTools</RootNamespace>
+    <AssemblyName>AcDoNetTools</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="AddEntityTools.cs" />
     <Compile Include="BaseTools.cs" />
+    <Compile Include="EditTool.cs" />
     <Compile Include="zDemo.cs" />
     <Compile Include="HatchTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,4 +1,5 @@
 ﻿using Autodesk.AutoCAD.ApplicationServices;
+using Autodesk.AutoCAD.Colors;
 using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.EditorInput;
 using Autodesk.AutoCAD.Geometry;
@@ -153,6 +154,44 @@ namespace EnvironmentTest
             //绘制椭圆
             db.AddEllipseToModeSpace(new Point3d(20, 20, 0), new Point3d(200, 200, 0),60);
             db.AddEllipseToModeSpace(new Point3d(100, 100, 0), new Point3d(500, 500, 0));
+        }
+        #endregion
+        #region Day5
+        /// <summary>
+        /// 图形填充测试
+        /// </summary>
+        [CommandMethod("TestHatch")]
+        public void TestHatch()
+        {
+            Database db = HostApplicationServices.WorkingDatabase;
+            ObjectId cId = db.AddCircleToModeSpace(new Point3d(100, 100, 0), 100);//添加坐标中心 半径为100的圆
+            //无填充颜色
+            db.HatchEnity(HatchTools.HatchPatternName.arb88, 4, 45, cId);
+
+            //ObjectId cId1 = db.AddCircleToModeSpace(new Point3d(300, 100, 0), 100);
+            ////有填充颜色
+            //db.HatchEnity(HatchTools.HatchPatternName.arbrstd, 2, 0, Color.FromColorIndex(ColorMethod.ByColor, 2), 1, cId1);
+
+            //ObjectId c1 = db.AddCircleToModeSpace(new Point3d(500, 500, 0), 200);
+            //ObjectId c2 = db.AddCircleToModeSpace(new Point3d(500, 500, 0), 100);
+
+            //List<HatchLoopTypes> loopTypes = new List<HatchLoopTypes>();
+            //loopTypes.Add(HatchLoopTypes.Outermost);//外部边界
+            //loopTypes.Add(HatchLoopTypes.Outermost);//边界
+            ////多个图案填充
+            //db.HatchEnity(loopTypes, HatchTools.HatchPatternName.arbrelm, 0.2, 0, c1, c2);//2个边界填充
+
+            //c1 = db.AddCircleToModeSpace(new Point3d(1000, 500, 0), 200);
+            //c2 = db.AddCircleToModeSpace(new Point3d(1000, 500, 0), 100);
+            //ObjectId c3 = db.AddCircleToModeSpace(new Point3d(1000, 500, 0), 50);
+            //loopTypes.Add(HatchLoopTypes.Outermost);//边界
+            //db.HatchEnity(loopTypes, HatchTools.HatchPatternName.arbconc, 0.2, 0, c1, c2, c3);//3个边界填充
+
+            //c1 = db.AddCircleToModeSpace(new Point3d(1000, 500, 0), 200);
+            //c2 = db.AddCircleToModeSpace(new Point3d(1000, 500, 0), 100);
+            //c3 = db.AddCircleToModeSpace(new Point3d(1000, 500, 0), 50);
+
+            //db.HatchEnity(loopTypes, HatchTools.HatchPatternName.arbrelm, 0.2, 0, c1);//忽略中间边界填充
         }
         #endregion
     }

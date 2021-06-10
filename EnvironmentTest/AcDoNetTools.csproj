@@ -57,6 +57,8 @@
     <Compile Include="AddEntityTools.cs" />
     <Compile Include="BaseTools.cs" />
     <Compile Include="EditTool.cs" />
+    <Compile Include="LayerTool.cs" />
+    <Compile Include="TextTools.cs" />
     <Compile Include="zDemo.cs" />
     <Compile Include="HatchTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
